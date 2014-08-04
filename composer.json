@@ -1,5 +1,5 @@
 {
-    "name": "pimcore/example-plugin",
+    "name": "pimcore/ExamplePlugin",
     "type": "pimcore-plugin",
     "license": "BSD-3-Clause",
 	"description": "An example plugin",
