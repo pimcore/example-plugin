@@ -16,4 +16,4 @@
 	"require": {
         "pimcore/installer-plugin": ">=1"
     }
-}
+} 
