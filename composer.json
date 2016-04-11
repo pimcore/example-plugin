@@ -1,19 +1,7 @@
 {
     "name": "pimcore/example-plugin",
     "type": "pimcore-plugin",
-    "license": "BSD-3-Clause",
-	"description": "An example plugin",
-	"keywords": ["pimcore","example","plugin"],
-	"homepage": "http://www.pimcore.org/",
-	"authors": [
-        {
-            "name": "pimcore Team",
-            "email": "info@pimcore.com",
-            "homepage": "http://www.pimcore.org/",
-            "role": "Developer"
-        }
-    ],
-	"require": {
+    "require": {
         "pimcore/installer-plugin": ">=1"
     }
 } 
