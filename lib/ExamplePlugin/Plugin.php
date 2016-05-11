@@ -1,7 +1,8 @@
 <?php
 
+namespace ExamplePlugin; 
 
-class ExamplePlugin_Plugin  extends Pimcore_API_Plugin_Abstract implements Pimcore_API_Plugin_Interface {
+class Plugin  extends Pimcore_API_Plugin_Abstract implements Pimcore_API_Plugin_Interface {
     
 	public static function install (){
         // implement your own logic here
