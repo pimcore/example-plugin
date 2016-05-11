@@ -2,9 +2,9 @@
 
 namespace ExamplePlugin;
 
-use \Pimcore\API\Plugin;
+use \Pimcore\API\Plugin as PimcorePlugin;
 
-class Plugin  extends Plugin\AbstractPlugin implements Plugin\PluginInterface {
+class Plugin  extends PimcorePlugin\AbstractPlugin implements PimcorePlugin\PluginInterface {
 
 	public static function install (){
         // implement your own logic here
