@@ -1,14 +1,16 @@
 <?php
 
-namespace ExamplePlugin; 
+namespace ExamplePlugin;
 
-class Plugin  extends Pimcore_API_Plugin_Abstract implements Pimcore_API_Plugin_Interface {
-    
+use \Pimcore\API\Plugin;
+
+class Plugin  extends Plugin\AbstractPlugin implements Plugin\PluginInterface {
+
 	public static function install (){
         // implement your own logic here
         return true;
 	}
-	
+
 	public static function uninstall (){
         // implement your own logic here
         return true;
@@ -18,6 +20,4 @@ class Plugin  extends Pimcore_API_Plugin_Abstract implements Pimcore_API_Plugin_
         // implement your own logic here
         return true;
 	}
-
-
 }
