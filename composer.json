@@ -3,5 +3,10 @@
     "type": "pimcore-plugin",
     "require": {
         "pimcore/installer-plugin": ">=1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExamplePlugin\\": "lib"
+        }
     }
 } 
